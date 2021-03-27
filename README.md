@@ -10,16 +10,16 @@ The goal here was to take the code I found elsewhere and make something that's g
 
 There's cheats too if you just want it to end. Credit there goes to https://gist.github.com/ssmereka/6517444 
 
-/* Change your Mouse Cookies Per Second (MCPS) */
+h4. Change your Mouse Cookies Per Second (MCPS) 
 Game.computedMouseCps=123456789;
 
-/* Change your Cookies Per Second (CPS) */
+h4. Change your Cookies Per Second (CPS) 
 Game.cookiesPs=123456789
 
-/* Spawn a Golden Cookie */
+h4. Spawn a Golden Cookie 
 Game.goldenCookie.delay= 0;
 Game.goldenCookie.life=0;
 Game.goldenCookie.spawn();
 
-/* Add cookies to your current cookie supply */
+h4. Add cookies to your current cookie supply 
 Game.cookies= Game.cookies + 1000000000;
